@@ -36,7 +36,11 @@ class ViewController: UI.ViewController {
         )
 
         let portrait: AnyLayout = button.sizing(toWidth: 200).fillingParent(insets: 30).embedding(in: rect).centeringInParent()
-        let landscape: AnyLayout = stack(.horizontal)(button, rectLayout).centeringInParent()
+        let landscape: AnyLayout = HStackView {
+            button
+            rectLayout
+        }
+        .centeringInParent()
 
         return layoutSet(
             traitQuery(traitCollection: UITraitCollection(horizontalSizeClass: .compact)) { portrait },
