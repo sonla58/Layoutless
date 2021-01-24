@@ -154,19 +154,16 @@ extension LayoutProtocol where Node: Anchorable {
 extension LayoutProtocol where Node: Anchorable {
 
     /// Inset the node by wrapping it in a dummy view and filling it using the given insets.
-    @available(*, deprecated, message: "Use Padding instead")
     public func insetting(leftBy left: CGFloat, rightBy right: CGFloat, topBy top: CGFloat, bottomBy bottom: CGFloat) -> Layout<UIView> {
         return insetting(by: UIEdgeInsets(top: top, left: left, bottom: bottom, right: right))
     }
 
     /// Inset the node by wrapping it in a dummy view and filling it using the given insets.
-    @available(*, deprecated, message: "Use Padding instead")
     public func insetting(by insets: CGFloat) -> Layout<UIView> {
         return insetting(by: UIEdgeInsets(top: insets, left: insets, bottom: insets, right: insets))
     }
 
     /// Inset the node by wrapping it in a dummy view and filling it using the given insets.
-    @available(*, deprecated, message: "Use Padding instead")
     public func insetting(by insets: UIEdgeInsets) -> Layout<UIView> {
         return Layout { revertable in
             let container = UIView()

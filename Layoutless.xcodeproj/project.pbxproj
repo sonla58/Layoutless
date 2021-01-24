@@ -17,8 +17,6 @@
 		1CA5D22225AC344A00CEBA16 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D22025AC344A00CEBA16 /* Stack.swift */; };
 		1CA5D22825AC34F000CEBA16 /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D22725AC34F000CEBA16 /* ForEach.swift */; };
 		1CA5D22925AC34F000CEBA16 /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D22725AC34F000CEBA16 /* ForEach.swift */; };
-		1CA5D22D25AC350B00CEBA16 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D22C25AC350B00CEBA16 /* Padding.swift */; };
-		1CA5D22E25AC350B00CEBA16 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D22C25AC350B00CEBA16 /* Padding.swift */; };
 		1CA5D23425AC3A4600CEBA16 /* Dx.UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D23325AC3A4600CEBA16 /* Dx.UIView.swift */; };
 		1CA5D23525AC3A4600CEBA16 /* Dx.UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D23325AC3A4600CEBA16 /* Dx.UIView.swift */; };
 		1CA5D23925AC3ACD00CEBA16 /* Dx.UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5D23825AC3ACD00CEBA16 /* Dx.UILabel.swift */; };
@@ -83,7 +81,6 @@
 		1CA5D21325AC340900CEBA16 /* LayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutBuilder.swift; sourceTree = "<group>"; };
 		1CA5D22025AC344A00CEBA16 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		1CA5D22725AC34F000CEBA16 /* ForEach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
-		1CA5D22C25AC350B00CEBA16 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		1CA5D23325AC3A4600CEBA16 /* Dx.UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dx.UIView.swift; sourceTree = "<group>"; };
 		1CA5D23825AC3ACD00CEBA16 /* Dx.UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dx.UILabel.swift; sourceTree = "<group>"; };
 		1CA5D23D25AC3B5A00CEBA16 /* Dx.UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dx.UIButton.swift; sourceTree = "<group>"; };
@@ -155,7 +152,6 @@
 			children = (
 				1CA5D22025AC344A00CEBA16 /* Stack.swift */,
 				1CA5D22725AC34F000CEBA16 /* ForEach.swift */,
-				1CA5D22C25AC350B00CEBA16 /* Padding.swift */,
 			);
 			path = LayoutComponents;
 			sourceTree = "<group>";
@@ -373,7 +369,6 @@
 				EC2870EE201E446900702624 /* LayoutProtocol.swift in Sources */,
 				ECE4C74C22A97041002FFC51 /* UI.Button.swift in Sources */,
 				ECE4C74F22A97041002FFC51 /* UI.TableViewCell.swift in Sources */,
-				1CA5D22D25AC350B00CEBA16 /* Padding.swift in Sources */,
 				1CA5D23E25AC3B5A00CEBA16 /* Dx.UIButton.swift in Sources */,
 				1CA5D20A25AC31FE00CEBA16 /* Stylable.swift in Sources */,
 				ECC45DDD20DE7CB300E13399 /* WindowTraitCollection.swift in Sources */,
@@ -413,7 +408,6 @@
 				ECC45DDE20DE7CB300E13399 /* WindowTraitCollection.swift in Sources */,
 				ECE4C74222A97040002FFC51 /* UI.Button.swift in Sources */,
 				ECE4C74522A97040002FFC51 /* UI.TableViewCell.swift in Sources */,
-				1CA5D22E25AC350B00CEBA16 /* Padding.swift in Sources */,
 				1CA5D23F25AC3B5A00CEBA16 /* Dx.UIButton.swift in Sources */,
 				1CA5D20B25AC31FE00CEBA16 /* Stylable.swift in Sources */,
 				ECCF2E0E20274F82008099DD /* Length.swift in Sources */,
